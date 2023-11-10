@@ -1,0 +1,62 @@
+
+body{
+    color: white;
+    font-weight: bold;
+
+    /* background-image : url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUoAtXf27c4FGVkke32iqSwv95MsTgnXpVbw&usqp=CAU"); */
+    background-image : url("https://digivents.s3-eu-west-1.amazonaws.com/2017/Registration/2521/638071480650771316_DIGIVENTS_HEADER%20form.jpg")
+}
+
+.image { 
+    height: 420px;
+    width: 300px;
+}
+.couleur {
+    color: red;
+}
+
+#top { 
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+        padding: 35px;
+}
+
+.produit {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    flex-direction: column;
+}
+.fa {
+    display: flex;
+    padding: 25px;
+    justify-content: space-around;
+    
+}
+h1 {display: flex;
+justify-content: center;
+}
+
+.but {
+    font-size: 22px;
+    font-weight: bold;
+}
+.bob {
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 3px;
+    background-color: black;
+
+}
+h2{ 
+    font-family :Georgia, 'Times New Roman', Times, serif;
+}
+#total {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
